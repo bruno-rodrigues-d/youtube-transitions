@@ -16,7 +16,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Desafio 31 - #BoraCodar.
 
-Youtube Transitions - uma aplicação onde é possível transcrever um vídeo do YouTube.
+Youtube Transcription - uma aplicação onde é possível transcrever um vídeo do YouTube.
 
 ## 🎨 Design:
 
