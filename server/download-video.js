@@ -10,11 +10,12 @@ export const downloader = (videoId) => new Promise((resolve, reject) => {
     filter: 'audioonly',
   })
   .on('end', () => {
-    console.log('[FINISHed_DOWNLOAD]');
+    console.log('[FINISHED_DOWNLOAD]');
     resolve();
   })
   .on('error', () => {
     console.log('[ERROR_DOWNLOAD]');
     reject('[ERROR_DOWNLOADING_VIDEO]');
   })
+  .pipe(fs.createWriteStream('audio.mp4'));
 });
