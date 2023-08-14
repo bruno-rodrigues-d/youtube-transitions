@@ -6,12 +6,17 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "server": "node server/index.js"
   },
   "devDependencies": {
     "vite": "^4.4.5"
   },
   "dependencies": {
-    "phosphor-react": "^1.4.1"
+    "axios": "^1.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "phosphor-react": "^1.4.1",
+    "ytdl-core": "^4.11.5"
   }
 }
