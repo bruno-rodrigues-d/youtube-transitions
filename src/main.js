@@ -1,5 +1,6 @@
 // Form
 import './form.js'
+import './copy.js'
 
 // Style
 import '../styles/global.css'
